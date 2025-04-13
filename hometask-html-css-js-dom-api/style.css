@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@500&display=swap');
+
+body {
+    margin: 70px 60px 70px 60px;
+    font-family: "DM Sans", sans-serif;
+    
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #1E0E62;
+    line-height: 1.6;
+}
+
+/* header */
+
+.Header {
+    font-size: 42px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderButton {
+    color: #1E0E62;
+    border: 2px solid whitesmoke;
+    background-color: #ffffff;
+    font-size: 18px;
+    width: 214px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/* cards */
+
+.Cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.CardElement1 {
+    padding: 40px 0px 40px 60px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    background-color: #EBEAED;
+}
+.CardHeader1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+.CardText1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.CardButton1 {
+    width: 105px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+
+
+    border-radius: 100px;
+    color: #1E0E62;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+
+    margin-top: 70px;
+}
+
+.CardElement2 {
+    padding: 40px 0px 40px 60px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.CardHeader2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+.CardText2 {
+    color: #15143966;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.CardButton2 {
+    width: 105px;
+    height: 40px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 100px;
+
+    color: #FFFFFF;
+    background-color: #25DAC5;
+    border: 2px solid #25DAC5;
+
+    margin-top: 70px; 
+}
+
+.CardElement3 {
+    padding: 40px 0px 40px 60px;
+    border: 2px solid #482BE7;
+    border-radius: 10px;
+    background-color: #482BE7;
+}
+.CardHeader3 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+.CardText3 {
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.CardButton3 {
+    width: 105px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+
+
+    border-radius: 100px;
+    color: #1E0E62;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+
+    margin-top: 70px;
+}
+
+.CardElement4 {
+    padding: 40px 0px 40px 60px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    background-image: url(assets/img1.jpeg);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.CardHeader4 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+.CardText4 {
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.CardButton4 {
+    width: 105px;
+    height: 40px;
+
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 100px;
+
+    color: #1E0E62;
+
+    background-color: #FFFFFF;
+    border: solid #FFFFFF;
+
+    margin-top: 70px; 
+}
+
+
