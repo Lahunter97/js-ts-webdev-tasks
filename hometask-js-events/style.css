@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@500&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+body {
+    margin: 70px 60px 70px 60px;
+    font-family: "DM Sans", sans-serif;
+    
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #1E0E62;
+    line-height: 1.6;
+}
+
+.sort, .amountitems {
+    color: grey;
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.dropdown select {
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1E0E62;
+    font-weight: bold;
+  }
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
