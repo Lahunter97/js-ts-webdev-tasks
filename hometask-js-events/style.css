@@ -11,6 +11,9 @@ body {
     line-height: 1.6;
 }
 
+
+/* HEADER CARDS */
+
 .sort, .amountitems {
     color: grey;
     border-width: 0px;
@@ -32,8 +35,66 @@ body {
     font-weight: bold;
   }
 
-
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+
+/* CARDS */
+
+.card-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.photo-slub-jersey-t-shirt-white, .photo-printed-t-shirt, 
+.photo-cotton-t-shirt, .photo-t-shirt-with-a-motif, .photo-cotton-t-shirt-regular-fit,
+.photo-slub-jersey-t-shirt-th, .photo-no {
+        padding: 40px 0px 40px 60px;
+        border-radius: 10px;
+        
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+.photo-slub-jersey-t-shirt-white:hover, .photo-printed-t-shirt:hover, 
+.photo-cotton-t-shirt:hover, .photo-t-shirt-with-a-motif:hover, .photo-cotton-t-shirt-regular-fit:hover,
+.photo-slub-jersey-t-shirt-th:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.1);
+    transition: all 0.3s ease;
+}
+
+
+.photo-slub-jersey-t-shirt-white {
+    background-image: url(assets/slub-jersey.jpeg)
+}
+
+.photo-printed-t-shirt {
+    background-image: url(assets/printed.jpeg)
+}
+
+.photo-cotton-t-shirt {
+    background-image: url(assets/cotton.jpeg)
+}
+
+.photo-t-shirt-with-a-motif {
+    background-image: url(assets/with-a-motif.jpeg)
+}
+
+.photo-cotton-t-shirt-regular-fit {
+    background-image: url(assets/cotton-regular-fit.jpeg)
+}
+
+.photo-slub-jersey-t-shirt-th {
+    background-image: url(assets/slub-jersey-th.jpeg)
+}
+
+.photo-no {
+    background-color: rgb(235, 225, 225);
 }
