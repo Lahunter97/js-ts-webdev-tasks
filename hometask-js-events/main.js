@@ -22,6 +22,7 @@ const DataMenu = [
   DataMenu.forEach((item) => {
     const MenuElement = document.createElement("li");
     const MenuElementInner = document.createElement("a");
+    MenuElementInner.setAttribute("class", "menuname");
     MenuElementInner.textContent = item;
     MenuElement.append(MenuElementInner);
     MenuElements.append(MenuElement);
@@ -170,3 +171,48 @@ PageElement.append(PageMenu, PageCards);
 
 const Page = document.getElementsByTagName("body") [0];
 Page.prepend(PageElement);
+
+
+//event
+const MenuEvent = document.querySelectorAll("a.menuname");
+
+MenuEvent.forEach(menu_name => {
+    menu_name.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    MenuEvent.forEach(l => l.classList.remove("is-active"));
+
+    menu_name.classList.add("is-active");
+  });
+});
+
+ 
+/* 
+
+// Click Events
+document.getElementById("clickMe").addEventListener("click", () => {
+    document.getElementById("clickOutput").textContent = "Single clicked!";
+  });
+  
+  document.getElementById("doubleClickMe").addEventListener("dblclick", () => {
+    document.getElementById("clickOutput").textContent = "Double clicked!";
+  });
+
+  // Mouse Events
+const mouseBox = document.getElementById("mouseBox");
+
+mouseBox.addEventListener("mouseenter", () => {
+  mouseBox.classList.add("has-background-primary-light");
+  document.getElementById("mouseOutput").textContent = "Mouse entered";
+});
+
+// const button = document.getElementById("clickMe");
+
+// button.addEventListener("click", () => {
+//   console.log("ANother click");
+// });
+
+// button.addEventListener("click", function () {
+//   console.log("Click");
+// });
+  */
