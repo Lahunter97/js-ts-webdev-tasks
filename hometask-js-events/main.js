@@ -185,34 +185,3 @@ MenuEvent.forEach(menu_name => {
     menu_name.classList.add("is-active");
   });
 });
-
- 
-/* 
-
-// Click Events
-document.getElementById("clickMe").addEventListener("click", () => {
-    document.getElementById("clickOutput").textContent = "Single clicked!";
-  });
-  
-  document.getElementById("doubleClickMe").addEventListener("dblclick", () => {
-    document.getElementById("clickOutput").textContent = "Double clicked!";
-  });
-
-  // Mouse Events
-const mouseBox = document.getElementById("mouseBox");
-
-mouseBox.addEventListener("mouseenter", () => {
-  mouseBox.classList.add("has-background-primary-light");
-  document.getElementById("mouseOutput").textContent = "Mouse entered";
-});
-
-// const button = document.getElementById("clickMe");
-
-// button.addEventListener("click", () => {
-//   console.log("ANother click");
-// });
-
-// button.addEventListener("click", function () {
-//   console.log("Click");
-// });
-  */
